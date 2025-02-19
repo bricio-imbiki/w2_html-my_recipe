@@ -23,9 +23,9 @@ To get started with the lab, you need to fork the repository:
 3. Clone your new forked repository on your laptop
    2 ways possible to clone:
    - Clone with VS code (without line command):
-     <img src="assets/fork.gif" width="85%" height="" style="margin-x: auto">  
+     <img src="assets/clone-vscode.gif" width="85%" height="" style="margin-x: auto">  
    - Clone using the git clone command:
-     <img src="assets/fork.gif" width="85%" height="" style="margin-x: auto">  
+     <img src="assets/clone-cmd.gif" width="85%" height="" style="margin-x: auto">  
 
 ## 2. New Tool: Live Server + VS Code
 
@@ -43,6 +43,7 @@ Live Server is a **VS Code extension** that allows you to launch a local develop
 4. Open your **HTML file** in VS Code.
 5. Right-click and select **"Open with Live Server"**, OR click on the **"Go Live"** button in the status bar.
 6. Your browser will open with the live preview of your file.
+<img src="assets/liveserver.gif" width="85%" height="" style="margin-x: auto">  
 
 ---
 
