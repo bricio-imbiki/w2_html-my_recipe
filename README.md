@@ -87,7 +87,7 @@ Once you finished all exercises, merge all your work into a new branch named `to
    git merge header-setup
    ```
    then you'll see a message in the terminal:  
-   <img src="assets/merge-ok-msg.png" width="50%" height="" style="margin-x: auto">  
+   <img src="assets/merge-ok-msg.png" width="80%" height="" style="margin-x: auto">  
    This is showing the message for the future commit of the merge.  
    `Merge branch 'header-setup' into total-merge` is the message. The rest are commentaries.  
    You can either keep the message or edit it.  
@@ -108,7 +108,7 @@ Once you finished all exercises, merge all your work into a new branch named `to
    - ``
    - ``
    - sfvg
-   <img src="assets/merge-conflict-editor.png" width="50%" height="" style="margin-x: auto">  
+   <img src="assets/merge-conflict-editor.png" width="80%" height="" style="margin-x: auto">  
 
    These 3 lines are here to show you the 2 versions of the file that git doesn't know how to combine. Therefore you have to decide the final combinason.
    You can remove the 3 lines, save the file, and look at the result in the live server.
@@ -118,7 +118,7 @@ Once you finished all exercises, merge all your work into a new branch named `to
    git add .
    git commit 
    ```
-   <img src="assets/merge-conflict-commit-msg.png" width="50%" height="" style="margin-x: auto">  
+   <img src="assets/merge-conflict-commit-msg.png" width="80%" height="" style="margin-x: auto">  
    This is showing the message for the future commit of the merge.  
    `Merge branch 'ingredients' into total-merge` is the message. The rest are commentaries.  
    You can either keep the message or edit it.  
