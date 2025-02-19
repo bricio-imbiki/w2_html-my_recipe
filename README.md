@@ -104,10 +104,12 @@ Once you finished all exercises, merge all your work into a new branch named `to
    You know why ? Because ...
 
    **Let's fix this conflict 🛠️**  
-   When you open your index.html, you'll see you have a combinason of header-setup and ingredients with two lines:
-   - ``
-   - ``
-   - sfvg
+   When you open your index.html, you'll see you have a combinason of header-setup and ingredients with 3 lines:
+   - **`<<<<<<< HEAD (Current Change)`**
+      - *here is the current state of total merge*  
+   - **`=======`**
+      - *here is the changes you're trying to merge from ingredients*  
+   - **`>>>>>>> ingredients (Incoming)`**
    <img src="assets/merge-conflict-editor.png" width="80%" height="" style="margin-x: auto">  
 
    These 3 lines are here to show you the 2 versions of the file that git doesn't know how to combine. Therefore you have to decide the final combinason.
@@ -119,6 +121,7 @@ Once you finished all exercises, merge all your work into a new branch named `to
    git commit 
    ```
    <img src="assets/merge-conflict-commit-msg.png" width="80%" height="" style="margin-x: auto">  
+   
    This is showing the message for the future commit of the merge.  
    `Merge branch 'ingredients' into total-merge` is the message. The rest are commentaries.  
    You can either keep the message or edit it.  
