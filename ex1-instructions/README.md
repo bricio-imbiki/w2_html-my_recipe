@@ -10,7 +10,7 @@ In this exercice you will manipulate the following tags:
 - `<img>`  
 
 The goal is to reproduce this:
-<img src="assets/ex1.png" width="50%" height="" style="margin-x: auto">
+<img src="ex1.png" width="50%" height="" style="margin-x: auto">
 
 #### 1. Title
 Add a `<title></title>` that will be read my the search engines.  
