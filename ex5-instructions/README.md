@@ -11,8 +11,10 @@ In this exercice, inside of the `<body></body>`tag, you will manipulate the foll
 - `<i>`  
 - `</br>`  
 
-The goal is to reproduce this:
+The goal is to reproduce this:  
 <img src="ex5.png" width="50%" height="" style="margin-x: auto">
+
+⚠️ make sure you are in the right branch with `git checkout paragraph`
 
 #### 1. Paragraph
 You will add a `<p></p>`. Then you will nest the rest inside of this paragraph tag.
