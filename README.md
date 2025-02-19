@@ -100,6 +100,7 @@ Once you finished all exercises, merge all your work into a new branch named `to
    git merge ingredients
    ```
    Oups, there's a merge conflict...
+   <img src="assets/merge-conflict-msg.png" width="80%" height="" style="margin-x: auto"> 
    # ⚠️ to complete
    You know why ? Because ...
 
