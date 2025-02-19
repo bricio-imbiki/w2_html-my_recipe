@@ -67,6 +67,8 @@ The page you will create is divided into 5 parts:
 **[ex4](https://github.com/onja-org/W2_html-my-recipe/tree/links/ex4-instructions#readme): `links`**  
 **[ex5](https://github.com/onja-org/W2_html-my-recipe/tree/paragraph/ex5-instructions#readme): `paragraph`**  
 
+So for example, to do exercice 1 header-setup, in VS code's terminal, type `git checkout header-setup`  
+
 **Now, until you finish the exerice/section 5, you can leave this readme.md instruction.**  
 ⚠️⚠️**Once you've finished the section 5, remember to return to this readme.md (main branch) to continue the lab**
 
