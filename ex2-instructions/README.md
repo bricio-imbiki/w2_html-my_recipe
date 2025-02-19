@@ -9,8 +9,10 @@ In this exercice, inside of the `<body></body>` tag, you will manipulate the fol
 - `<ul>`  
 - `<li>`  
 
-The goal is to reproduce this:
+The goal is to reproduce this:  
 <img src="ex2.png" width="50%" height="" style="margin-x: auto">
+
+⚠️ make sure you are in the right branch with `git checkout ingredients`
 
 #### 1. Heading
 Add a `<h2></h2>` heading to create the title for the list.  
