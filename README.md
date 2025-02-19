@@ -13,6 +13,8 @@ By the end of the lab you should have an index.html that looks like this in the 
 3. Do every exercice in their own branches
 4. Merge all of your work in a newly created branch and publish
 
+Good luck and have fun building your recipe page! 🍽️
+
 ## 1. Fork this repository, clone, and open in VS code
 
 To get started with the lab, you need to fork the repository:
@@ -71,7 +73,7 @@ The page you will create is divided into 5 parts:
 
 ## 4. Merge and publish
 
-Once you finished all exercises, merge them into a new branch named `total-merge`:
+Once you finished all exercises, merge all your work into a new branch named `total-merge`:
 
 1. create the `total-merge` branch from the `main` branch:
    ```bash
@@ -80,20 +82,58 @@ Once you finished all exercises, merge them into a new branch named `total-merge
    git checkout total-merge
    ```
 
-   # TO DO
-2. merge header-setup
+2. Merge header-setup
    ```bash
    git merge header-setup
    ```
+   then you'll see a message in the terminal:  
+   <img src="assets/merge-ok-msg.png" width="50%" height="" style="margin-x: auto">  
+   This is showing the message for the future commit of the merge.  
+   `Merge branch 'header-setup' into total-merge` is the message. The rest are commentaries.  
+   You can either keep the message or edit it.  
+   Whe you are ready to commit the merge, just type: `:qa` and then press <kbd>Return</kbd>
+   
+   Easy ! right :) ? Let's continue  
 
-3. Merge your branch:
+3. Merge ingredients:
    ```bash
-   git merge <branch-name>
+   git merge ingredients
    ```
-4. Push your changes to GitHub:
-   ```bash
-   git push origin main
-   ```
+   Oups, there's a merge conflict...
+   # ⚠️ to complete
+   You know why ? Because ...
 
-Good luck and have fun building your recipe page! 🍽️
+   **Let's fix this conflict 🛠️**  
+   When you open your index.html, you'll see you have a combinason of header-setup and ingredients with two lines:
+   - ``
+   - ``
+   - sfvg
+   <img src="assets/merge-conflict-editor.png" width="50%" height="" style="margin-x: auto">  
+
+   These 3 lines are here to show you the 2 versions of the file that git doesn't know how to combine. Therefore you have to decide the final combinason.
+   You can remove the 3 lines, save the file, and look at the result in the live server.
+   Edit your file until you are satisfied with the result.
+   When you are satified, just commit:
+   ```bash
+   git add .
+   git commit 
+   ```
+   <img src="assets/merge-conflict-commit-msg.png" width="50%" height="" style="margin-x: auto">  
+   This is showing the message for the future commit of the merge.  
+   `Merge branch 'ingredients' into total-merge` is the message. The rest are commentaries.  
+   You can either keep the message or edit it.  
+   Whe you are ready to commit the merge, just type: `:qa` and then press <kbd>Return</kbd>
+
+4. Continue by yourself:
+   - You can refer to `3. Merge ingredients` to help you merge the rest of your work into total-merge.
+     Merge the branches **following this order**:
+        - header-setup (done)
+        - ingredients (done)
+        - steps
+        - links
+        - paragraph
+   - ⚠️ be careful when mergin paragraph: you'll need to make sure it is positionned under the image, just like in the picture of the expected final result.
+   
+🥳 Yeaaaaah !!!! You've reached the end of the lab :)
+
 
