@@ -9,8 +9,10 @@ In this exercice you will manipulate the following tags:
 - `<h1>`  
 - `<img>`  
 
-The goal is to reproduce this:
+The goal is to reproduce this:  
 <img src="ex1.png" width="50%" height="" style="margin-x: auto">
+
+⚠️ make sure you are in the right branch with `git checkout header-setup`
 
 #### 1. Title
 Add a `<title></title>` that will be read my the search engines.  
