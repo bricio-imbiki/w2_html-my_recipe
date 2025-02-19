@@ -18,12 +18,14 @@ By the end of the lab you should have an index.html that looks like this in the 
 To get started with the lab, you need to fork the repository:
 
 1. Click on the **Fork** button at the top-right corner of the repository page.
-2. Select your **GitHub account** to create a copy in your own repositories.
-3. Once forked, clone the repository to your local machine using:
+<img src="assets/fork.gif" width="50%" height="" style="margin-x: auto">
+
+3. Select your **GitHub account** to create a copy in your own repositories.
+4. Once forked, clone the repository to your local machine using:
    ```bash
    git clone <your-forked-repo-url>
    ```
-4. Navigate into the project folder:
+5. Navigate into the project folder:
    ```bash
    cd my-recipe-lab
    ```
