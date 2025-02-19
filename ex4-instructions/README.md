@@ -9,8 +9,10 @@ In this exercice you will manipulate the following tags:
 - `<a>`  
 - `</br>`  
 
-The goal is to reproduce this:
+The goal is to reproduce this:  
 <img src="ex4.png" width="50%" height="" style="margin-x: auto">
+
+⚠️ make sure you are in the right branch with `git checkout links`
 
 #### 1. Heading
 Add a `<h2></h2>` heading to create the title for the list.  
