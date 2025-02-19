@@ -53,17 +53,17 @@ Now we can start the lab.
 The page you will create is divided into 5 parts:  
 <img src="assets/sections.png" width="50%" height="" style="margin-x: auto">
 
-**For every exercise/section you will** 
+**For every exercise/section you will**  
 **- checkout the associated branch**  
-**- read the intrcutions to build the section in the readme.md** . 
-**- edit the index.html file and commit** . 
+**- read the intrcutions to build the section in the readme.md**  
+**- edit the index.html file and commit**  
 
-**Below are the names of the branches for every section:** . 
-**ex1: `header-setup`**  
-**ex2: `ingredients`**  
-**ex3: `steps`**  
-**ex4: `links`**  
-**ex5: `paragraph`**  
+**Below are the names of the branches for every section:**  
+**[ex1](https://github.com/onja-org/W2_html-my-recipe/tree/header-setup/ex1-instructions#readme): `header-setup`**  
+**[ex2](https://github.com/onja-org/W2_html-my-recipe/tree/ingredients/ex2-instructions#readme): `ingredients`**  
+**[ex3](https://github.com/onja-org/W2_html-my-recipe/tree/steps/ex3-instructions#readme): `steps`**  
+**[ex4](https://github.com/onja-org/W2_html-my-recipe/tree/links/ex4-instructions#readme): `links`**  
+**[ex5](https://github.com/onja-org/W2_html-my-recipe/tree/paragraph/ex5-instructions#readme): `paragraph`**  
 
 **Now, until you finish the exerice/section 5, you can leave this readme.md instruction.**  
 ⚠️⚠️**Once you've finished the section 5, remember to return to this readme.md (main branch) to continue the lab**
