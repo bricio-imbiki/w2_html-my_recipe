@@ -13,22 +13,19 @@ By the end of the lab you should have an index.html that looks like this in the 
 3. Do every exercice in their own branches
 4. Merge all of your work in a newly created branch and publish
 
-## 1. Fork the Repository, and clone
+## 1. Fork this repository, clone, and open in VS code
 
 To get started with the lab, you need to fork the repository:
 
 1. Click on the **Fork** button at the top-right corner of the repository page.
-<img src="assets/fork.gif" width="50%" height="" style="margin-x: auto">
+<img src="assets/fork.gif" width="85%" height="" style="margin-x: auto">
 
-3. Select your **GitHub account** to create a copy in your own repositories.
-4. Once forked, clone the repository to your local machine using:
-   ```bash
-   git clone <your-forked-repo-url>
-   ```
-5. Navigate into the project folder:
-   ```bash
-   cd my-recipe-lab
-   ```
+3. Clone your new forked repository on your laptop
+   2 ways possible to clone:
+   - Clone with VS code (without line command):
+     <img src="assets/fork.gif" width="85%" height="" style="margin-x: auto">  
+   - Clone using the git clone command:
+     <img src="assets/fork.gif" width="85%" height="" style="margin-x: auto">  
 
 ## 2. New Tool: Live Server + VS Code
 
